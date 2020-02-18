@@ -376,7 +376,7 @@
 	.\37 u, .\37 u\24 {
 		width: 58.3333333333%;
 		clear: none;
-		margin-left: 0;
+		margin-left: 30px;
 	}
 
 	.\36 u, .\36 u\24 {
@@ -2247,8 +2247,14 @@
 
 		.image.fit {
 			display: block;
-			margin: 0 0 2em 0;
+			margin: 0 0 1em 0;
 			width: 100%;
+		}
+		.image.fit ~ div {
+			text-align: center;
+		}
+		.image.fit ~ div:nth-child(2) {
+			font-weight: bold;
 		}
 
 			.image.fit img {
